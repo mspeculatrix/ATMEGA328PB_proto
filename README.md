@@ -1,6 +1,6 @@
 # ATMEGA328PB_proto
 
-**This is a work in progress. It is untested.**
+**This is a work in progress. It is incomplete and untested.**
 
 This is a breakout/prototyping board for the ATMEGA328PB microcontroller which comes in the TQFP-32 format. It allows programming of the chip and breaks out all the pins to standard DuPont headers for project prototyping. My plan is to mount this PCB on a baseboard alongside a breadboard.
 
