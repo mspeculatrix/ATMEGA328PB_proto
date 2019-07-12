@@ -1,4 +1,4 @@
-# ATMEGA328PB_proto
+# ATMEGA328PB breakout & prototyping board
 
 **This is a work in progress. It is incomplete and untested.**
 
