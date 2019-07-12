@@ -23,3 +23,8 @@ The standard UART pins – RX (PD0) and TX (PD1) have additional pins. These are
 Finally, there are three lots of 4-pin connectors all tied to GND. Marked as 'test points', these are for the easy attachment of the GND clip for oscilloscope probes.
 
 NOTE: The power connector is a simple two-pin header. NO REVERSE POLARITY PROTECTION IS PROVIDED. Nor is there any over-voltage protection.
+
+***
+* [Background to the project](https://mansfield-devine.com/speculatrix/2019/07/atmega328pb-breakout-and-prototyping-board/)
+
+
