@@ -8,7 +8,7 @@ The microcontroller chip is placed in a TQFP-32 adapter, such as [this one](http
 
 The pins for the four ports, B, C, D and E are gathered together logically (whereas they are somewhat scattered around on the microcontroller chip itself).
 
-###Features
+### Features
 * The AVCC pin is connected to VCC using a low-pass filter - ie, via a 10µH inductor with a 0.1µF capacitor to GND. This is Atmel's recommended setup which you want to use the analogue features of the microcontroller but don't want to go to the trouble of providing a separate analogue supply.
 * There's a standard 6-pin header to connect an ISP programmer auch as the ATMEL-ICE.
 * The ~RESET pin (PC6) has a pullup resistor and a tactile button to reset the microcontroller.
