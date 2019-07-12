@@ -17,11 +17,12 @@ The pins for the four ports, B, C, D and E are gathered together logically (wher
 * The standard UART pins – RX (PD0) and TX (PD1) have additional pins. These are in a row of six pins, including a GND connection, designed to match the normal order of connections on an FTDI USB-serial cable. Two of the other pins - RTS and CTS - are connected to two more pins. You can then use short female-female jumper cables to connect RTS and DTS to the GPIO pins of your choice.
 * Finally, there are three lots of 4-pin connectors all tied to GND. Marked as 'test points', these are for the easy attachment of the GND clip for oscilloscope probes.
 
-NOTE: The power connector is a simple two-pin header. NO REVERSE POLARITY PROTECTION IS PROVIDED. Nor is there any over-voltage protection.
-
-The board is intended to be powered by 5V, although it might work on 3.3V (I haven't thought that through).
+### Notes
+* The power connector is a simple two-pin header. NO REVERSE POLARITY PROTECTION IS PROVIDED. Nor is there any over-voltage protection.
+* The board is intended to be powered by 5V, although it might work on 3.3V (I haven't thought that through).
 
 ***
+### Resources
 * [Background to the project](https://mansfield-devine.com/speculatrix/2019/07/atmega328pb-breakout-and-prototyping-board/)
 
 
