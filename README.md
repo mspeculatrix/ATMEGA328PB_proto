@@ -14,10 +14,14 @@ The pins for the four ports, B, C, D and E are gathered together logically (wher
 * Female headers allow the use of an external crystal. This can be selected or deselected using jumpers. Onboard 22pF capacitors are connected between each leg of the crystal and GND.
 * The standard UART pins – RX (PD0) and TX (PD1) have additional pins. These are in a row of six pins, including a GND connection, designed to match the normal order of connections on an FTDI USB-serial cable. Two of the other pins - RTS and CTS - are connected to two more pins. You can then use short female-female jumper cables to connect RTS and DTS to the GPIO pins of your choice.
 * Finally, there are three lots of 4-pin connectors all tied to GND. Marked as 'test points', these are for the easy attachment of the GND clip for oscilloscope probes.
+* There's an on-off slide switch for power. It is possible, however, that the board will be back-powered through any signals applied to the GPIO pins. Other than buffering every pin, I don't see any way to avoid this, so it's just something to watch out for.
 
 ### Notes
 * The power connector is a simple two-pin header. NO REVERSE POLARITY PROTECTION IS PROVIDED. Nor is there any over-voltage protection.
 * The board is intended to be powered by 5V, although it might work on 3.3V (I haven't thought that through).
+
+### Progress
+I've received the first batch of Rev 1.0 boards and have made up one, hand-soldered board. And, so far, it has worked flawlessly.
 
 ***
 ### Resources
